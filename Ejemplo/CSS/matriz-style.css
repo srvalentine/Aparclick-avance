@@ -1,0 +1,107 @@
+.matriz_pantalla{
+    width: 600px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 35x;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+    position: relative;
+	background-color: #fff;
+}
+
+.matriz_btn{
+    padding: 10px 10px 10px 10px;
+}
+
+#boton1, #boton3, #boton4{
+    margin: 10px;
+    margin-right: 20px;
+    transition: .3s ease all;
+    width: 250px;
+}
+
+#boton2, #boton5, #boton6, #boton7{
+    background-color: #000;
+    border-color: #000;
+    color: #fff;
+    width: 520px;
+    margin: 10px;
+    margin-left: 15px;
+    transition: .3s ease all;
+    max-width: 100%;
+}
+
+#boton2:hover{
+    background-color: #3e14b2;
+    transition: .3s ease all;
+}
+
+#boton5:hover{
+    background-color: #3e14b2;
+    transition: .3s ease all;
+}
+
+#boton6:hover{
+    background-color: #3e14b2;
+    transition: .3s ease all;
+}
+
+#boton7:hover{
+    background-color: #3e14b2;
+    transition: .3s ease all;
+}
+
+.boton_guardar{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.boton_cancelar{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.button{
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+#metodo{
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pagos{
+    color: #454545;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#tarjetadesc, #efectivodesc, #tarjeta, #efectivo{
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#tarjetadesc:hover, #tarjeta:hover, #efectivodesc:hover, #efectivo:hover{
+    color: rgb(0, 255, 0);
+    transition: .3s;
+}
+
+#tarjeta, #efectivo{
+    margin-left: 10px;
+}
+
+.contenedordescripcion{
+    display: none;
+}
